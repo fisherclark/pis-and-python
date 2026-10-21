@@ -49,7 +49,7 @@ button.when_pressed = loop
 try:
 	while True:
 		code = input("")
-		if code == "++--<><>ab":
+		if code.lower() == "++--<><>ba":
 			rig()
 except KeyboardInterrupt:
 	print("\nDone")
